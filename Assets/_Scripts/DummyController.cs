@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DummyController : MonoBehaviour
 {
@@ -10,40 +11,57 @@ public class DummyController : MonoBehaviour
     private Vector3 tapPosition;
     private Vector3 mousePosition;
     private static bool isPressed;
-    private GameObject[] arms;
+    private GameObject[] targets;
     private float xMovementMin;
+    public List<GameObject> collectables;
+    private bool isCollectable;
+    private int random;
+    private int index;
     private void Start() 
     {
         _rigidBody = GetComponent<Rigidbody>();
-        arms = GameObject.FindGameObjectsWithTag("Arm");
+        targets = GameObject.FindGameObjectsWithTag("Arm");
         xMovementMin = 0.1f;
+        StartCoroutine(SpawnCollectable());
     }
 
     private void Update() {
         tapPosition = mousePosition;
         mousePosition = Input.mousePosition;
+        
     }
-
 
     private void OnMouseDown() {
         ApplyImpulseToGameObject(Vector3.left, false);
         isPressed = true;
+        isCollectable = false;
+        foreach (GameObject element in collectables){
+            element.SetActive(false);
+        }
     }
     
     private void OnMouseUp() {
         isPressed = false;
-        EnableColliders(arms);
+        EnableColliders(targets);
     }
 
     private void OnMouseOver() {
-        float xMovement;
-        Vector3 localRightDirectionNormalized = _rigidBody.transform.right.normalized;
         if(isPressed){
+            float xMovement;
+            Vector3 localRightDirectionNormalized = _rigidBody.transform.right.normalized;
             xMovement = tapPosition.x - mousePosition.x;
             if(xMovement > xMovementMin){
                 ApplyImpulseToGameObject(localRightDirectionNormalized, true);
+                isCollectable = false;
+                foreach (GameObject element in collectables){
+                    element.SetActive(false);
+                }
             }else if(xMovement < -xMovementMin){
-                ApplyImpulseToGameObject(localRightDirectionNormalized.normalized, false);
+                ApplyImpulseToGameObject(localRightDirectionNormalized, false);
+                isCollectable = false;
+                foreach (GameObject element in collectables){
+                    element.SetActive(false);
+                }
             }
         }
     }
@@ -61,7 +79,7 @@ public class DummyController : MonoBehaviour
     /// <summary>
     /// Disable the collider of current GameObject
     /// </summary>
-    private void DisableArmCollider(){
+    private void DisableCollider(){
         _rigidBody.GetComponent<Collider>().enabled = false;
     }
 
@@ -75,11 +93,24 @@ public class DummyController : MonoBehaviour
         if(revertForce){
             forceDirection *= -1;
         }
-
         _rigidBody.AddForce(forceDirection * impulseForce, ForceMode.Impulse);
         tapPosition = Input.mousePosition;
-        EnableColliders(arms);
-        DisableArmCollider();
+        EnableColliders(targets);
+        DisableCollider();
+    }
+
+    IEnumerator SpawnCollectable(){
+        while (true){
+            yield return new WaitForSeconds(2f);
+            if(!isCollectable){
+                random = Random.Range(0, 10);
+                if(random < 5){
+                    index = Random.Range(0, collectables.Count);
+                    collectables[index].SetActive (true);
+                    isCollectable = true;
+                } 
+            }
+        }
     }
 
 }
