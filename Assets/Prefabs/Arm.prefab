@@ -369,3 +369,4 @@ MonoBehaviour:
   spawnTriggerValue: 5
   fatigueBase: 1
   fatigueAccum: 0
+  restTime: 1

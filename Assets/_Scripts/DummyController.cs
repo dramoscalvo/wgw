@@ -26,6 +26,7 @@ public class DummyController : MonoBehaviour
     public int spawnTriggerValue;
     public float fatigueBase;
     public float fatigueAccum;
+    public float restTime;
 
     private void Start() 
     {
@@ -56,6 +57,7 @@ public class DummyController : MonoBehaviour
         isPressed = false;
         EnableColliders(targets);
         fatigueAccum = 0;
+        StartCoroutine(Rest());
     }
 
     private void OnMouseOver() {
@@ -130,6 +132,13 @@ public class DummyController : MonoBehaviour
                     hasSpawneable = true;
                 } 
             }
+        }
+    }
+
+    IEnumerator Rest(){
+        while (!isPressed){
+            yield return new WaitForSeconds(restTime);
+            gameManager.UpdateFatigue(-1f);
         }
     }
 
