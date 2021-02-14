@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7528207603558703839}
   m_Layer: 0
   m_Name: PowerUp_B_R
-  m_TagString: Orb
+  m_TagString: Spawneable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 4208606529717131163}
   m_Layer: 0
   m_Name: PowerDown_B_R
-  m_TagString: Orb
+  m_TagString: Spawneable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +359,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86cabce8e4bdbcc4c80fefc1760890a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulseForce: 10
-  collectables:
+  spawneables:
   - {fileID: 58952949}
   - {fileID: 1743081618}
+  trySpawnTime: 2
+  impulseForce: 10
+  randomRangeMin: 0
+  randomRangeMax: 10
+  spawnTriggerValue: 5
+  fatigueBase: 1
+  fatigueAccum: 0

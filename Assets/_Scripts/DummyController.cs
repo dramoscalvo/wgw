@@ -5,23 +5,34 @@ using Random = UnityEngine.Random;
 
 public class DummyController : MonoBehaviour
 {
+    private static bool isPressed;
+
     private Rigidbody _rigidBody;
 
-    public float impulseForce;
+    private GameManager gameManager;
     private Vector3 tapPosition;
     private Vector3 mousePosition;
-    private static bool isPressed;
     private GameObject[] targets;
     private float xMovementMin;
-    public List<GameObject> collectables;
-    private bool isCollectable;
-    private int random;
+    private bool hasSpawneable;
+    private int randomValue;
     private int index;
+
+    public List<GameObject> spawneables;
+    public float trySpawnTime;
+    public float impulseForce;
+    public int randomRangeMin;
+    public int randomRangeMax;
+    public int spawnTriggerValue;
+    public float fatigueBase;
+    public float fatigueAccum;
+
     private void Start() 
     {
         _rigidBody = GetComponent<Rigidbody>();
         targets = GameObject.FindGameObjectsWithTag("Arm");
         xMovementMin = 0.1f;
+        gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(SpawnCollectable());
     }
 
@@ -32,17 +43,19 @@ public class DummyController : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        ApplyImpulseToGameObject(Vector3.left, false);
+        ApplyImpulseToGameObject(Vector3.back, false);
         isPressed = true;
-        isCollectable = false;
-        foreach (GameObject element in collectables){
+        hasSpawneable = false;
+        foreach (GameObject element in spawneables){
             element.SetActive(false);
         }
+        gameManager.UpdateFatigue(fatigueBase);
     }
     
     private void OnMouseUp() {
         isPressed = false;
         EnableColliders(targets);
+        fatigueAccum = 0;
     }
 
     private void OnMouseOver() {
@@ -52,16 +65,20 @@ public class DummyController : MonoBehaviour
             xMovement = tapPosition.x - mousePosition.x;
             if(xMovement > xMovementMin){
                 ApplyImpulseToGameObject(localRightDirectionNormalized, true);
-                isCollectable = false;
-                foreach (GameObject element in collectables){
+                hasSpawneable = false;
+                foreach (GameObject element in spawneables){
                     element.SetActive(false);
                 }
+                gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
+                fatigueAccum++;
             }else if(xMovement < -xMovementMin){
                 ApplyImpulseToGameObject(localRightDirectionNormalized, false);
-                isCollectable = false;
-                foreach (GameObject element in collectables){
+                hasSpawneable = false;
+                foreach (GameObject element in spawneables){
                     element.SetActive(false);
                 }
+                gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
+                fatigueAccum++;
             }
         }
     }
@@ -99,15 +116,18 @@ public class DummyController : MonoBehaviour
         DisableCollider();
     }
 
+    /// <summary>
+    /// Co-routine to spawn spawneables objects
+    /// </summary>
     IEnumerator SpawnCollectable(){
         while (true){
-            yield return new WaitForSeconds(2f);
-            if(!isCollectable){
-                random = Random.Range(0, 10);
-                if(random < 5){
-                    index = Random.Range(0, collectables.Count);
-                    collectables[index].SetActive (true);
-                    isCollectable = true;
+            yield return new WaitForSeconds(trySpawnTime);
+            if(!hasSpawneable){
+                randomValue = Random.Range(randomRangeMin, randomRangeMax);
+                if(randomValue < spawnTriggerValue){
+                    index = Random.Range(0, spawneables.Count);
+                    spawneables[index].SetActive (true);
+                    hasSpawneable = true;
                 } 
             }
         }

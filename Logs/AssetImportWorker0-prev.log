@@ -1,0 +1,1124 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.746; Version 2004; 64bit' Language: 'es' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Proyectos/Unity/WCW
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49898
+Successfully changed project path to: D:/Proyectos/Unity/WCW
+D:/Proyectos/Unity/WCW
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Proyectos/Unity/WCW/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 870M (ID=0x1199)
+    Vendor:   
+    VRAM:     6097 MB
+    Driver:   25.21.14.2531
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001937 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2337 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.0 MB.
+System memory in use after: 111.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2778.
+Total: 3.601200 ms (FindLiveObjects: 0.619300 ms CreateObjectMapping: 0.562400 ms MarkObjects: 2.292200 ms  DeleteObjects: 0.126500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025173 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.029071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106045 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000240 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.004323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034201 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.005029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024909 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000223 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.004669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025329 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000221 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.004256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024865 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000265 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.005365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021085 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000275 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.006353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018082 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.007255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020544 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000241 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:19:59.7699671Z'
+  Import took 0.005418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027606 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.054994 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.060351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025396 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000235 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018354 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000526 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023631 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000420 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.007002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019128 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021047 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000290 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022639 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029093 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000267 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027278 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000283 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021041 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017623 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000249 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.007109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018838 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022024 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000241 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021069 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000266 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018642 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000516 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.008651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017081 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000286 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029291 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000212 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022700 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000239 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021212 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000225 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021494 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000248 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018668 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000561 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.007291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022184 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000575 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017636 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000247 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019162 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000221 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023565 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000270 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027701 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000283 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035102 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000287 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022098 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020110 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000290 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018139 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.009110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020373 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019608 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019896 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025768 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000231 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017631 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000581 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.009607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017745 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022688 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000262 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024987 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000274 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025997 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021802 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000293 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.005245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021451 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.006529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029384 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000258 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:04.1338244Z'
+  Import took 0.004206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022524 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044222 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.052870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027951 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000237 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025139 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000322 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030991 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000274 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027135 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022565 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000234 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.003994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018561 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000577 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.009010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022655 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000247 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020460 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000225 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020422 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020140 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000294 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025466 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000233 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021059 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000301 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.011256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020663 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000649 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.008551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027998 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000611 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024648 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000561 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.008008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020329 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000244 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023039 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000319 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023936 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026777 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000247 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025760 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000241 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023687 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000244 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.004954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028704 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026013 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000370 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.007258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030945 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000314 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.005329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030233 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031567 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.006960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026981 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000318 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:05.3708467Z'
+  Import took 0.007022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029419 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022811 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000239 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021912 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.006875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024282 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000267 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024446 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027971 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000226 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018715 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000596 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.008080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018987 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000230 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019963 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000231 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024675 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000233 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019941 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000242 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016449 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000608 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.009903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020372 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000263 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.006055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025489 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000248 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023412 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023064 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025499 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.006215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028961 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000235 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.003896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028797 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000241 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.004555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022991 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000239 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020827 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.007849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019064 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000907 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.010593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020573 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.006030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029600 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000844 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018531 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000225 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020643 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000239 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021385 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000233 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025504 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021609 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000244 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.006770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017152 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000323 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.008253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018680 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000299 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.005012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023307 seconds.
+  path: Assets/_Scripts/CollectableController.cs
+  artifactKey: Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CollectableController.cs using Guid(20de3ab7e03532142943d948ec392670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000369 seconds
+  ERROR: Build asset version error: assets/_scripts/collectablecontroller.cs in SourceAssetDB has modification time of '2021-02-11T23:19:43.6155456Z' while content on disk has modification time of '2021-02-11T23:20:06.2905736Z'
+  Import took 0.007171 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2780.
+Total: 2.862700 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.230700 ms MarkObjects: 2.235500 ms  DeleteObjects: 0.071200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 2.524400 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.129500 ms MarkObjects: 2.002500 ms  DeleteObjects: 0.116900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
