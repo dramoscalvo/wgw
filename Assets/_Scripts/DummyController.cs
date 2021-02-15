@@ -6,6 +6,8 @@ using Random = UnityEngine.Random;
 public class DummyController : MonoBehaviour
 {
     private static bool isPressed;
+    private static Coroutine co;
+
 
     private Rigidbody _rigidBody;
 
@@ -17,6 +19,7 @@ public class DummyController : MonoBehaviour
     private bool hasSpawneable;
     private int randomValue;
     private int index;
+    private bool isRest;
 
     public List<GameObject> spawneables;
     public float trySpawnTime;
@@ -35,6 +38,7 @@ public class DummyController : MonoBehaviour
         xMovementMin = 0.1f;
         gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(SpawnCollectable());
+        co = gameManager.co;
     }
 
     private void Update() {
@@ -51,13 +55,16 @@ public class DummyController : MonoBehaviour
             element.SetActive(false);
         }
         gameManager.UpdateFatigue(fatigueBase);
+        if(gameManager.co != null){
+            gameManager.StopRestCR();
+        }
     }
     
     private void OnMouseUp() {
         isPressed = false;
         EnableColliders(targets);
         fatigueAccum = 0;
-        StartCoroutine(Rest());
+        gameManager.StartRestCR();
     }
 
     private void OnMouseOver() {
@@ -122,6 +129,7 @@ public class DummyController : MonoBehaviour
     /// Co-routine to spawn spawneables objects
     /// </summary>
     IEnumerator SpawnCollectable(){
+        
         while (true){
             yield return new WaitForSeconds(trySpawnTime);
             if(!hasSpawneable){
@@ -135,11 +143,13 @@ public class DummyController : MonoBehaviour
         }
     }
 
-    IEnumerator Rest(){
-        while (!isPressed){
-            yield return new WaitForSeconds(restTime);
-            gameManager.UpdateFatigue(-1f);
-        }
-    }
+    // IEnumerator Rest(){
+    //     // isActiveRestCR = true;
+    //     while (!isPressed){
+    //         yield return new WaitForSeconds(restTime);
+    //         gameManager.UpdateFatigue(-1f);
+    //     }
+    //     // isActiveRestCR = false;
+    // }
 
 }
