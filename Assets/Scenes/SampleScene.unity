@@ -168,6 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1129605154}
   fatigueText: {fileID: 420692395}
+  restTime: 5
+  fatigueRestBase: -1
 --- !u!1 &420692393
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,13 +504,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.7602697, y: -0.58054256, z: 0.18201622, w: 0.22766308}
+  m_LocalPosition: {x: 0.33, y: 3.83, z: 3.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 146.116, y: -0.8580017, z: 74.469}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

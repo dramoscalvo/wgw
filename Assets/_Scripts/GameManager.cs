@@ -5,18 +5,45 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private int score;
-    private float fatigue;
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI fatigueText;
-//TODO Hacer co privada y lectura con getter
-    public Coroutine co;
-    public float restTime;
+    private int _score;
+    private int score
+    {
+        set
+        {
+            _score = Mathf.Clamp(value, 0, 99999);
+        }
+        get
+        {
+            return _score;
+        }
+    }
+    private float _fatigue;
+    private float fatigue
+    {
+        set
+        {
+            _fatigue = Mathf.Clamp(value, 0, 100);
+        }
+        get
+        {
+            return _fatigue;
+        }
+    }
+    private Coroutine _co;
     [SerializeField]
      [Range(-1, -10)]
     private float fatigueRestBase;
 
-
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI fatigueText;
+    public Coroutine co
+    {
+        get
+        {
+            return _co;
+        }
+    }
+    public float restTime;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +62,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void StartRestCR(){
-        co = StartCoroutine(Rest());
+        _co = StartCoroutine(RestCR());
         Debug.Log("Started");
     }
 
@@ -44,7 +71,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Stopped");
     }
 
-    private IEnumerator Rest(){
+    private IEnumerator RestCR(){
         while (true){
             yield return new WaitForSeconds(restTime);
             UpdateFatigue(fatigueRestBase);
