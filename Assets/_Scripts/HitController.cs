@@ -71,21 +71,9 @@ public class HitController : MonoBehaviour
             Vector3 localRightDirectionNormalized = _rigidBody.transform.right.normalized;
             xMovement = tapPosition.x - mousePosition.x;
             if(xMovement > xMovementMin){
-                ApplyImpulseToGameObject(localRightDirectionNormalized, true);
-                hasSpawneable = false;
-                foreach (GameObject element in spawneables){
-                    element.SetActive(false);
-                }
-                gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
-                fatigueAccum += fatigueBase;
+                SwapHit(localRightDirectionNormalized, true);
             }else if(xMovement < -xMovementMin){
-                ApplyImpulseToGameObject(localRightDirectionNormalized, false);
-                hasSpawneable = false;
-                foreach (GameObject element in spawneables){
-                    element.SetActive(false);
-                }
-                gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
-                fatigueAccum += fatigueBase;
+                SwapHit(localRightDirectionNormalized, false);
             }
         }
     }
@@ -126,7 +114,7 @@ public class HitController : MonoBehaviour
     /// <summary>
     /// Co-routine to spawn spawneables objects
     /// </summary>
-    IEnumerator SpawnCollectable(){
+    private IEnumerator SpawnCollectable(){
         
         while (true){
             yield return new WaitForSeconds(trySpawnTime);
@@ -140,4 +128,20 @@ public class HitController : MonoBehaviour
             }
         }
     }
+
+    /// <summary>
+    /// Apply the logic to hit while swapping
+    /// </summary>
+    /// <param name="forceDirection">Force to apply</param>
+    /// <param name="revertForce">True if the force direction has to be reverted</param>
+    private void SwapHit (Vector3 forceDirection, bool revertForce){
+        ApplyImpulseToGameObject(forceDirection, revertForce);
+        hasSpawneable = false;
+        foreach (GameObject element in spawneables){
+            element.SetActive(false);
+        }
+        gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
+        fatigueAccum += fatigueBase;
+    }
+
 }
