@@ -15,6 +15,6 @@ public class PowerRedController : MonoBehaviour
 
     // Start is called before the first frame update
     private void OnDisable() {
-        gameManager.UpdateScore(score);
+        Debug.Log("HE MORIDO");
     }
 }
