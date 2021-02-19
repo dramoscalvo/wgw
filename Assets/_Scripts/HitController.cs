@@ -140,14 +140,4 @@ public class HitController : MonoBehaviour
             }
         }
     }
-
-    // IEnumerator Rest(){
-    //     // isActiveRestCR = true;
-    //     while (!isPressed){
-    //         yield return new WaitForSeconds(restTime);
-    //         gameManager.UpdateFatigue(-1f);
-    //     }
-    //     // isActiveRestCR = false;
-    // }
-
 }

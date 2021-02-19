@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
             return _score;
         }
     }
+    //TODO: max _fatigue should be a variable which will be increased while user plays
     private float _fatigue;
     private float fatigue
     {
@@ -30,10 +31,11 @@ public class GameManager : MonoBehaviour
         }
     }
     private Coroutine _co;
+    
     [SerializeField]
-     [Range(-1, -10)]
+    [Range(-1, -100)]
     private float fatigueRestBase;
-
+    //TODO: configure setter/getter for text, controlling the type of data is being sent
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI fatigueText;
     public Coroutine co
@@ -51,26 +53,44 @@ public class GameManager : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// Update the score by a given value
+    /// </summary>
+    /// <param name="valueToUpdate">Value to update the score</param>
     public void UpdateScore(int valueToUpdate){
         score += valueToUpdate;
         scoreText.text = score.ToString();
     }
 
+    /// <summary>
+    /// Update fatigue counter by a given value
+    /// </summary>
+    /// <param name="valueToUpdate">Value to update fatigue counter</param>
     public void UpdateFatigue(float valueToUpdate){
         fatigue += valueToUpdate;
         fatigueText.text = fatigue.ToString();
     }
 
+    /// <summary>
+    /// Start Rest co-routine
+    /// </summary>
     public void StartRestCR(){
         _co = StartCoroutine(RestCR());
         Debug.Log("Started");
     }
 
+    /// <summary>
+    /// Stop Rest co-routine
+    /// </summary>
     public void StopRestCR(){
         StopCoroutine(co);
         Debug.Log("Stopped");
     }
 
+    /// <summary>
+    /// Decrease fatigue counter every restTime
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator RestCR(){
         while (true){
             yield return new WaitForSeconds(restTime);
