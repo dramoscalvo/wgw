@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 1
+  spawnTime: 5
 --- !u!1 &1743081618
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,4 +372,3 @@ MonoBehaviour:
   spawnTriggerValue: 5
   fatigueBase: 1
   fatigueAccum: 0
-  restTime: 5

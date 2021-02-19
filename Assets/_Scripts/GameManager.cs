@@ -76,7 +76,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void StartRestCR(){
         _co = StartCoroutine(RestCR());
-        Debug.Log("Started");
     }
 
     /// <summary>
@@ -84,7 +83,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void StopRestCR(){
         StopCoroutine(co);
-        Debug.Log("Stopped");
     }
 
     /// <summary>
