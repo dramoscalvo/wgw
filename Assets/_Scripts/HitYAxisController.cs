@@ -19,6 +19,9 @@ public class HitYAxisController : MonoBehaviour
     private bool hasSpawneable;
     private int randomValue;
     private int index;
+    private GameManager.GameState gameState;
+    
+    
 
     public List<GameObject> spawneables;
     public float trySpawnTime;
@@ -26,8 +29,8 @@ public class HitYAxisController : MonoBehaviour
     public int randomRangeMin;
     public int randomRangeMax;
     public int spawnTriggerValue;
-    public float fatigueBase;
-    public float fatigueAccum;
+    public float injureBase;
+    public float injureAccum;
 
     private void Start() 
     {
@@ -37,11 +40,13 @@ public class HitYAxisController : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(SpawnCollectable());
         co = gameManager.co;
+        
     }
 
     private void Update() {
         tapPosition = mousePosition;
         mousePosition = Input.mousePosition;
+        gameState = gameManager.gameState;
     }
 
     private void OnMouseDown() {
@@ -51,7 +56,7 @@ public class HitYAxisController : MonoBehaviour
         foreach (GameObject element in spawneables){
             element.SetActive(false);
         }
-        gameManager.UpdateFatigue(fatigueBase);
+        gameManager.UpdateInjure(injureBase);
         if(gameManager.co != null){
             gameManager.StopRestCR();
         }
@@ -60,7 +65,7 @@ public class HitYAxisController : MonoBehaviour
     private void OnMouseUp() {
         isPressed = false;
         EnableColliders(targets);
-        fatigueAccum = 0;
+        injureAccum = 0;
         gameManager.StartRestCR();
     }
 
@@ -115,7 +120,7 @@ public class HitYAxisController : MonoBehaviour
     /// </summary>
     private IEnumerator SpawnCollectable(){
         
-        while (true){
+        while (gameState == GameManager.GameState.inGame ){
             yield return new WaitForSeconds(trySpawnTime);
             if(!hasSpawneable){
                 randomValue = Random.Range(randomRangeMin, randomRangeMax);
@@ -123,6 +128,7 @@ public class HitYAxisController : MonoBehaviour
                     index = Random.Range(0, spawneables.Count);
                     spawneables[index].SetActive (true);
                     hasSpawneable = true;
+                    
                 } 
             }
         }
@@ -139,8 +145,8 @@ public class HitYAxisController : MonoBehaviour
         foreach (GameObject element in spawneables){
             element.SetActive(false);
         }
-        gameManager.UpdateFatigue(fatigueBase + fatigueAccum);
-        fatigueAccum += fatigueBase;
+        gameManager.UpdateInjure(injureBase + injureAccum);
+        injureAccum += injureBase;
     }
 
 }

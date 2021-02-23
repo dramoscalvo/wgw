@@ -6,14 +6,14 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
 
-    private enum GameState
+    public enum GameState
     {
         menu,
         inGame,
         gameOver
     }
 
-    private GameState gameState;
+    public GameState gameState;
 
     private int _score;
     private int score
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameState = GameState.menu;   
     }
 
     /// <summary>

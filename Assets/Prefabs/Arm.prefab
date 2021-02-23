@@ -385,5 +385,5 @@ MonoBehaviour:
   randomRangeMin: 1
   randomRangeMax: 10
   spawnTriggerValue: 5
-  fatigueBase: 1
-  fatigueAccum: 1
+  injureBase: 1
+  injureAccum: 1
