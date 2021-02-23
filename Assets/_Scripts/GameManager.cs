@@ -5,6 +5,16 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+
+    private enum GameState
+    {
+        menu,
+        inGame,
+        gameOver
+    }
+
+    private GameState gameState;
+
     private int _score;
     private int score
     {
@@ -17,27 +27,27 @@ public class GameManager : MonoBehaviour
             return _score;
         }
     }
-    //TODO: max _fatigue should be a variable which will be increased while user plays
-    private float _fatigue;
-    private float fatigue
+    //TODO: max _injure should be a variable which will be increased while user plays
+    private float _injure;
+    private float injure
     {
         set
         {
-            _fatigue = Mathf.Clamp(value, 0, 100);
+            _injure = Mathf.Clamp(value, 0, 100);
         }
         get
         {
-            return _fatigue;
+            return _injure;
         }
     }
     private Coroutine _co;
     
     [SerializeField]
     [Range(-1, -100)]
-    private float fatigueRestBase;
+    private float injureRestBase;
     //TODO: configure setter/getter for text, controlling the type of data is being sent
     public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI fatigueText;
+    public TextMeshProUGUI injureText;
     public Coroutine co
     {
         get
@@ -63,12 +73,12 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Update fatigue counter by a given value
+    /// Update injure counter by a given value
     /// </summary>
-    /// <param name="valueToUpdate">Value to update fatigue counter</param>
-    public void UpdateFatigue(float valueToUpdate){
-        fatigue += valueToUpdate;
-        fatigueText.text = fatigue.ToString();
+    /// <param name="valueToUpdate">Value to update injure counter</param>
+    public void UpdateInjure(float valueToUpdate){
+        injure += valueToUpdate;
+        injureText.text = injure.ToString();
     }
 
     /// <summary>
@@ -86,13 +96,13 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Decrease fatigue counter every restTime
+    /// Decrease injure counter every restTime
     /// </summary>
     /// <returns></returns>
     private IEnumerator RestCR(){
         while (true){
             yield return new WaitForSeconds(restTime);
-            UpdateFatigue(fatigueRestBase);
+            UpdateInjure(injureRestBase);
         }
     }
 }
