@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 8269840090907496448}
   - component: {fileID: 6108842496912588330}
   - component: {fileID: 4618136854205404924}
-  - component: {fileID: 6362131448535193192}
+  - component: {fileID: 5605818463284630174}
   m_Layer: 0
   m_Name: Arm
   m_TagString: Arm
@@ -365,7 +365,7 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &6362131448535193192
+--- !u!114 &5605818463284630174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3230066622708037029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86cabce8e4bdbcc4c80fefc1760890a1, type: 3}
+  m_Script: {fileID: 11500000, guid: d585af3d373306347a08b85a6f7d1fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawneables:
@@ -382,8 +382,8 @@ MonoBehaviour:
   - {fileID: 1743081618}
   trySpawnTime: 2
   impulseForce: 10
-  randomRangeMin: 0
+  randomRangeMin: 1
   randomRangeMax: 10
   spawnTriggerValue: 5
   fatigueBase: 1
-  fatigueAccum: 0
+  fatigueAccum: 1
