@@ -58,11 +58,13 @@ public class GameManager : MonoBehaviour
     public float restTime;
     public GameObject menuScreen;
     public GameObject inGameScreen;
+    private GameObject[] targets;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameState = GameState.menu;   
+        gameState = GameState.menu;
+        targets = GameObject.FindGameObjectsWithTag("Arm");
     }
 
     /// <summary>
@@ -117,6 +119,9 @@ public class GameManager : MonoBehaviour
         gameState = GameState.inGame;
         menuScreen.gameObject.SetActive(false);
         inGameScreen.gameObject.SetActive(true);
+        foreach(GameObject element in targets){
+            element.GetComponent<HitYAxisController>().enabled = true;
+        }
     }
     
 }

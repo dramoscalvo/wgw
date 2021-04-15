@@ -38,6 +38,7 @@ public class HitYAxisController : MonoBehaviour
         targets = GameObject.FindGameObjectsWithTag("Arm");
         xMovementMin = 0.1f;
         gameManager = FindObjectOfType<GameManager>();
+        gameState = gameManager.gameState;
         StartCoroutine(SpawnCollectable());
         co = gameManager.co;
         
@@ -121,12 +122,10 @@ public class HitYAxisController : MonoBehaviour
         DisableCollider();
     }
 
-    // TODO: Move this function to GameManager
     /// <summary>
     /// Co-routine to spawn spawneables objects
     /// </summary>
-    private IEnumerator SpawnCollectable(){
-        Debug.Log(gameState);
+    public IEnumerator SpawnCollectable(){
         while (gameState == GameManager.GameState.inGame ){
             yield return new WaitForSeconds(trySpawnTime);
             if(!hasSpawneable){
