@@ -50,34 +50,40 @@ public class HitYAxisController : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        ApplyImpulseToGameObject(Vector3.back, false);
-        isPressed = true;
-        hasSpawneable = false;
-        foreach (GameObject element in spawneables){
-            element.SetActive(false);
-        }
-        gameManager.UpdateInjure(injureBase);
-        if(gameManager.co != null){
-            gameManager.StopRestCR();
+        if(gameState == GameManager.GameState.inGame){
+            ApplyImpulseToGameObject(Vector3.forward, false);
+            isPressed = true;
+            hasSpawneable = false;
+            foreach (GameObject element in spawneables){
+                element.SetActive(false);
+            }
+            gameManager.UpdateInjure(injureBase);
+            if(gameManager.co != null){
+                gameManager.StopRestCR();
+            }
         }
     }
     
     private void OnMouseUp() {
-        isPressed = false;
-        EnableColliders(targets);
-        injureAccum = 0;
-        gameManager.StartRestCR();
+        if(gameState == GameManager.GameState.inGame){
+            isPressed = false;
+            EnableColliders(targets);
+            injureAccum = 0;
+            gameManager.StartRestCR();
+        }
     }
 
     private void OnMouseOver() {
-        if(isPressed){
-            float xMovement;
-            Vector3 localRightDirectionNormalized = _rigidBody.transform.right.normalized;
-            xMovement = tapPosition.x - mousePosition.x;
-            if(xMovement > xMovementMin){
-                SwapHit(localRightDirectionNormalized, true);
-            }else if(xMovement < -xMovementMin){
-                SwapHit(localRightDirectionNormalized, false);
+        if(gameState == GameManager.GameState.inGame){
+            if(isPressed){
+                float xMovement;
+                Vector3 localRightDirectionNormalized = _rigidBody.transform.right.normalized;
+                xMovement = tapPosition.x - mousePosition.x;
+                if(xMovement > xMovementMin){
+                    SwapHit(localRightDirectionNormalized, true);
+                }else if(xMovement < -xMovementMin){
+                    SwapHit(localRightDirectionNormalized, false);
+                }
             }
         }
     }
@@ -120,7 +126,7 @@ public class HitYAxisController : MonoBehaviour
     /// Co-routine to spawn spawneables objects
     /// </summary>
     private IEnumerator SpawnCollectable(){
-        
+        Debug.Log(gameState);
         while (gameState == GameManager.GameState.inGame ){
             yield return new WaitForSeconds(trySpawnTime);
             if(!hasSpawneable){

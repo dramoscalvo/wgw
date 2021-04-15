@@ -305,6 +305,8 @@ MonoBehaviour:
   scoreText: {fileID: 1129605154}
   injureText: {fileID: 420692395}
   restTime: 5
+  menuScreen: {fileID: 969989786}
+  inGameScreen: {fileID: 1286420250}
 --- !u!1 &376242223
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +563,7 @@ GameObject:
   - component: {fileID: 564612840}
   - component: {fileID: 564612839}
   - component: {fileID: 564612838}
+  - component: {fileID: 564612841}
   m_Layer: 0
   m_Name: StartButton
   m_TagString: Untagged
@@ -670,6 +673,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564612836}
   m_CullTransparentMesh: 1
+--- !u!114 &564612841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564612836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5469c203f11b2d9418a9d93c21b0ea0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &589369098
 GameObject:
   m_ObjectHideFlags: 0
