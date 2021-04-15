@@ -56,6 +56,8 @@ public class GameManager : MonoBehaviour
         }
     }
     public float restTime;
+    public GameObject menuScreen;
+    public GameObject inGameScreen;
 
     // Start is called before the first frame update
     void Start()
@@ -104,5 +106,16 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(restTime);
             UpdateInjure(injureRestBase);
         }
+    }
+
+    /// <summary>
+    /// Decrease injure counter every restTime
+    /// </summary>
+    /// <returns></returns>
+    public void StartGame(){
+        Debug.Log("Game starting!");
+        gameState = GameState.inGame;
+        menuScreen.gameObject.SetActive(false);
+        inGameScreen.gameObject.SetActive(true);
     }
 }

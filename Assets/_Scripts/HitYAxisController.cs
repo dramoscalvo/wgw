@@ -115,6 +115,7 @@ public class HitYAxisController : MonoBehaviour
         DisableCollider();
     }
 
+    // TODO: Move this function to GameManager
     /// <summary>
     /// Co-routine to spawn spawneables objects
     /// </summary>
@@ -128,7 +129,6 @@ public class HitYAxisController : MonoBehaviour
                     index = Random.Range(0, spawneables.Count);
                     spawneables[index].SetActive (true);
                     hasSpawneable = true;
-                    
                 } 
             }
         }
